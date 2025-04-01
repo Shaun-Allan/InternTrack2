@@ -1,0 +1,21 @@
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  background-color: #032747;
+  color: white;
+  font-family: "Poppins";
+  span {
+    font-style: oblique;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer {
+    padding: 20px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+}
